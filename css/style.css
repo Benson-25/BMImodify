@@ -1,0 +1,171 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*,*:before,*:after{
+    box-sizing: border-box;
+}
+
+.wrap{
+	background: #424242;
+	height: 400px;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.imgPage{
+	padding-right: 50px;
+}
+.content{
+	display: flex;
+}
+.clearfix{
+	overflow: auto;
+zoom: 1;
+  }
+.set{
+	font-size: 21px;
+	color: #FFD366;
+}
+.send{
+	background: #FFD366;
+box-shadow: 0 1px 6px 3px rgba(255,196,50,0.64);
+	border-radius: 50% ;
+	width: 85px;
+	height: 85px;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+.Text{
+	background: rgba(255,255,255,0.18);
+	border: 1px solid #FFD366;
+	border-radius: 10px;
+	width: 200px;
+	height: 40px;
+	display: flex;
+	margin-top: 5px;
+}
+.height{
+	margin-bottom: 25px;
+}
+::placeholder{
+font-size: 16px;
+color: rgba(255,255,255,0.50);
+}
+h1{
+	text-align: center;
+	font-size: 30px;
+	padding-top:50px ;
+}
+.bmiRecord{
+	height: 500px;
+	background:#f5f5f5;
+}
+
+.imgLogo{
+	display: block;
+	background: #FFD366;
+
+}
+.imgLogo img{
+	margin: 0 auto ;
+	width: 55px;
+	height: 55px;
+}
+img{
+	width: 100%;
+	display: block;
+}
+.image{
+	display: block;
+	padding-top: 14px;
+	padding-bottom: 14px;
+}
+.list li{
+	margin:auto;
+	width: 70%;
+	padding : 21px;
+	background-color: white;
+	margin-bottom: 16px  ;
+  }
+  .underweight{
+	border-left: 8px solid #31BAF9;
+
+}
+.ideal{
+	border-left: 8px solid #86D73F;
+
+}
+.overweight{
+	border-left: 8px solid  #FF982D;
+}
+.lightFat{
+	border-left: 8px solid  #FF6C03;
+}
+.mediumFat{
+	border-left: 8px solid #FF6C03;
+}
+.overFat{
+ border-left: 8px solid#FF1200;
+}
+
+.bmiRecord ul{
+	padding-top: 20px;
+	text-align: center;
+}
+.bmiRecord li{
+	padding-top:20px;
+}
+.Script{
+	font-size: 0.75rem !important;
+  }
+  .Change{
+	display:flex;
+	justify-content: space-around ;
+  }
+
